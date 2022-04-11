@@ -1,2 +1,127 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/edx/paragon/blob/master/scss/core/ for reference
+$color-palette: (
+  // Reds
+  r500: #960012,
+  r400: #b50016,
+  r300: #d0021b,
+  r200: #dc172f,
+  r100: #ef6e7e,
+  r75: #f6bcc3,
+  r50: #ffd2d8,
+  // Oranges
+  o500: #a64500,
+  o400: #d55800,
+  o300: #ed6200,
+  o200: #f08032,
+  o100: #f4ae7e,
+  o75: #fbdfcc,
+  o50: #fff1e8,
+  // Yellows
+  y500: #d37300,
+  y400: #ff991f,
+  y300: #ffab00,
+  y200: #ffc400,
+  y100: #ffe380,
+  y75: #fff0b3,
+  y50: #fdf4d0,
+  // Greens
+  g500: #017a3a,
+  g400: #019044,
+  g300: #22a861,
+  g200: #38c67b,
+  g100: #74dfa7,
+  g75: #aceccb,
+  g50: #d7f9e7,
+  // Blues
+  b500: #21388b,
+  b400: #2c4ab8,
+  b300: #375de7,
+  b200: #5e7ceb,
+  b100: #8fa7ff,
+  b75: #d7defa,
+  b50: #e7ecfc,
+  // Teals
+  t50: #d9fffd,
+  t75: #b4f1ed,
+  t100: #79ddd7,
+  t200: #40cfc6,
+  t300: #00b2a9,
+  t400: #03948b,
+  t500: #00756e,
+  // Neutrals
+  // light neutrals
+  n10: #fafbfc,
+  n20: #f4f5f7,
+  n30: #ebecf0,
+  n40: #dfe1e6,
+  n50: #c1c7d0,
+  // mid-neutrals
+  n60: #b3bac5,
+  n70: #a5adba,
+  n80: #97a0af,
+  n90: #8993a4,
+  n100: #7a869a,
+  n200: #6b778c,
+  n300: #5e6c84,
+  n400: #505f79,
+  // dark neutrals
+  n500: #42526e,
+  n600: #344563,
+  n700: #253858,
+  n800: #172b4d,
+  n900: #091d42,
+  // Black and white
+  white: #ffffff,
+  black: #000000,
+  // Social media:
+  facebook: #3b5998,
+  twitter: #1da1f2,
+  youtube: #ff0000,
+  linkedin: #007bb5,
+  google: #4285f4,
+  vimeo: #1ab7ea,
+  p500: #2c8c86,
+  p400: #38b2ab,
+  p300: #00aea4,
+  p200: #7bd5d0,
+  p100: #9ee0dc,
+  p75: #c5edea,
+  p50: #ecf9f8,
+  c500: #d37300,
+  c400: #ffab00,
+  c300: #ffb600,
+  c200: #ffc533,
+  c100: #ffd366,
+  c75: #dad5f6,
+  c50: #eceafb
+) !default;
+
+// Custom variables
+// $primary: map-get($color-palette, 'c300');
+// $secondary: map-get($color-palette, 'n80');
+// $success: map-get($color-palette, 'g300');
+// $info: map-get($color-palette, 'b300');
+// $warning: map-get($color-palette, 'y400');
+// $danger: map-get($color-palette, 'r300');
+// $light: map-get($color-palette, 'n80');
+// $dark: map-get($color-palette, 'n800');
+
+//Reboot
+// $link-color: map-get($color-palette, 'n800');
+// $link-hover: map-get($color-palette, 'p300');
+// $link-decoration: none !default;
+// $link-hover-decoration: none !default;
+
+// $input-btn-focus-box-shadow: 0 0 0 4px
+//   rgba(map-get($color-palette, 'p300'), 0.2);
+// $btn-focus-box-shadow: 0 0 0 4px rgba(map-get($color-palette, 'p300'), 0.2);
+// $btn-active-box-shadow: 0 0 0 4px rgba(map-get($color-palette, 'p300'), 0.2);
+// $btn-font-weight: 500;
+
+// $border-radius: 4px;
+// $border-radius-sm: 2px;
+// $border-radius-lg: 8px;
+
+// Theme fonts
+// $font-family-sans-serif: 'Quicksand', Arial, sans-serif;

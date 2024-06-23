@@ -1,18 +1,32 @@
 {
-  "name": "@edx/brand-openedx",
-  "version": "1.0.0-semantically-released",
+  "name": "@steamforvietnam/brand-openedx",
+  "version": "0.1.0",
   "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/brand-openedx.git"
+    "url": "git+https://github.com/openedx/brand-openedx.git"
   },
-  "author": "edX",
-  "license": "GPL-3.0-or-later",
+  "author": "engineer@steamforvietnam.org",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/edx/brand-openedx/issues"
+    "url": "https://github.com/steamforvietnam/brand-openedx/issues"
   },
-  "homepage": "https://github.com/edx/brand-openedx#readme",
+  "homepage": "https://github.com/steamforvietnam/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "favicon.ico",
+    "logo-trademark.png",
+    "logo-trademark.svg",
+    "logo-white.png",
+    "logo-white.svg",
+    "logo.png",
+    "logo.svg",
+    "package-lock.json",
+    "package.json",
+    "paragon/"
+  ]
 }
